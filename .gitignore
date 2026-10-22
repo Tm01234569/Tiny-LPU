@@ -1,0 +1,22 @@
+# Python virtual environments & bytecode
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Cocotb & Verilator build artifacts
+sim_build/
+obj_dir/
+*.fst
+*.vcd
+*.hier
+results.xml
+
+# Datasets, checkpoints, and generated weight payloads
+data/raw/
+model/checkpoints/
+weights/
+*.bin
+*.mem
+*.pt
